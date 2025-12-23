@@ -22,3 +22,15 @@ python3 harvesting.py
     * **Selective:** Each slider represents percentage of that age group that will be harvested in a year.
     * **Proportional:** Only one slider is available. That represents the percentage of population that will be harvested, regardless of age.
     * **Constant Quota:** Each slider represents the exact number of individual animals in an age group that will be harvested every year.
+
+## Real-Time Simulation Mode
+
+For a more hands on experience, run the real-time simulation:
+
+```bash
+python realtime_simulation.py
+```
+### New Controls:
+* Play/Pause: Toggle the passage of time.
+* Speed Slider: Control how fast years pass (Frames Per Second).
+* Reset: Restart the population from year 0.
