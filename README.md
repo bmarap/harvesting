@@ -30,6 +30,8 @@ For a more hands on experience, run the real-time simulation:
 ```bash
 python realtime_simulation.py
 ```
+
+![Realtime Simulation Gif](realtime-simulation.gif)
 ### New Controls:
 * Play/Pause: Toggle the passage of time.
 * Speed Slider: Control how fast years pass (Frames Per Second).
