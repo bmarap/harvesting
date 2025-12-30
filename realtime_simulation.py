@@ -84,7 +84,10 @@ ax.set_ylim(0, 2000)
 param_text = (
     "BIOLOGICAL PARAMETERS\n"
     "---------------------\n"
-    f"Initial Pop: {list(INITIAL_POP)}\n\n"
+    f"Initial Pop:\n"
+    f"  J: {INITIAL_POP[0]}\n"
+    f"  S: {INITIAL_POP[1]}\n"
+    f"  A: {INITIAL_POP[2]}\n\n"
     f"Fecundity (F):\n  J:{F_J} S:{F_S} A:{F_A}\n\n"
     f"Survival (S):\n  J->S:{S_J_to_S}\n  S->A:{S_S_to_A}\n  A->A:{S_A_surv}"
 )
